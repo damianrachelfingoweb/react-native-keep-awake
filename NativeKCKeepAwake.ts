@@ -6,4 +6,4 @@ export interface Spec extends TurboModule {
   deactivate: () => void;
 }
 
-export default TurboModuleRegistry.getEnforcing<Spec>('ReactNativeKCKeepAwake');
+export default TurboModuleRegistry.getEnforcing<Spec>('KCKeepAwake');
