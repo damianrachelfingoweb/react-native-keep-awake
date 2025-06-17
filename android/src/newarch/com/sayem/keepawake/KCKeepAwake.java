@@ -5,12 +5,13 @@ import android.os.Build;
 import androidx.annotation.NonNull;
 
 import com.facebook.react.bridge.ReactApplicationContext;
-
-import com.sayem.keepawake.NativeKCKeepAwakeSpec;
+import com.facebook.react.turbomodule.core.interfaces.TurboModule;
+import com.facebook.react.turbomodule.core.interfaces.annotations.ReactModule;
 
 import android.util.Log;
 
-public class KCKeepAwake extends NativeKCKeepAwakeSpec {
+@ReactModule(name = KCKeepAwakeModule.NAME)
+public class KCKeepAwakeSpec extends NativeKCKeepAwakeSpec {
 
     private final KCKeepAwakeImpl delegate;
 
