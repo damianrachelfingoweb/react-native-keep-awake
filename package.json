@@ -27,11 +27,9 @@
   "author": "Sayem Chowdhury",
   "license": "MIT",
   "codegenConfig": {
-    "name": "ReactNativeKCKeepAwakeSpec",
+    "name": "KCKeepAwake",
     "type": "modules",
     "jsSrcsDir": ".",
-    "android": {
-      "javaPackageName": "com.sayem.keepawake"
-    }
+    "android": { "javaPackageName": "com.sayem.keepawake" }
   }
 }
