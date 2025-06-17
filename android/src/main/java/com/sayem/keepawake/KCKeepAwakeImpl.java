@@ -6,7 +6,7 @@ import com.facebook.react.bridge.ReactApplicationContext;
 
 class KCKeepAwakeImpl {
 
-    public static final String NAME = "ReactNativeKCKeepAwake";
+    public static final String NAME = "KCKeepAwake";
 
     static ReactApplicationContext RCTContext;
 
